@@ -4,7 +4,7 @@ public class FindMinimum
 {
    public static void main(String[] args)
    {
-      System.out.print(findMin);
+      System.out.print(findMin());
    }
    
    public static int findMin()
