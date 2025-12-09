@@ -9,11 +9,10 @@ public class FindMinimum
    
    public static int findMin()
    {
-      Random random = new Random();
       int min = 100;
       for (int i = 0; i < 10; i++)
       {
-         int randomNumber = random.nextInt(100);
+         int randomNumber = (int)(Math.random() * 100);
          if (randomNumber < min)
          {
             min = randomNumber;
